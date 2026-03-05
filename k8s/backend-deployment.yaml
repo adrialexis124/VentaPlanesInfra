@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: prestadoresacr12345.azurecr.io/prestadores-back:v2
+          image: prestadoresacr12345.azurecr.io/prestadores-back:v3
           ports:
             - containerPort: 8080
           env:

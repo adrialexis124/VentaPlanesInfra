@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: prestadoresacr12345.azurecr.io/prestadores-front:v2
+          image: prestadoresacr12345.azurecr.io/prestadores-front:v3
           ports:
             - containerPort: 80
